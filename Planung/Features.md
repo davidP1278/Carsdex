@@ -3,3 +3,6 @@
 Es soll aus dem Bild Daten heraus nehmen, wie, Datum und der Ort.
 Ausserdem könnte ich mit Google lens den Namen des Autos herausfinden.
 es soll dann alles automatisch ausgefühlt werden, bei dem hochladen des Bildes.
+
+### Such Funktion
+Man soll nach bestimmten Autos suchen können.
