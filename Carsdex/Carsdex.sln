@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34607.119
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Carsdex", "Carsdex\Carsdex\Carsdex.csproj", "{099DD367-3B46-4AD7-8A9D-60D45DC226D4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Carsdex.Client", "Carsdex\Carsdex.Client\Carsdex.Client.csproj", "{EF720858-C0F4-49F9-845C-018AC11D9A0B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{099DD367-3B46-4AD7-8A9D-60D45DC226D4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{099DD367-3B46-4AD7-8A9D-60D45DC226D4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{099DD367-3B46-4AD7-8A9D-60D45DC226D4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{099DD367-3B46-4AD7-8A9D-60D45DC226D4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EF720858-C0F4-49F9-845C-018AC11D9A0B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EF720858-C0F4-49F9-845C-018AC11D9A0B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EF720858-C0F4-49F9-845C-018AC11D9A0B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EF720858-C0F4-49F9-845C-018AC11D9A0B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E6177026-0DEE-4E85-89B8-C2BF107EB798}
+	EndGlobalSection
+EndGlobal

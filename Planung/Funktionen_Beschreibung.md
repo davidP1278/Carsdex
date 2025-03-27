@@ -1,6 +1,5 @@
 # Funktionen von Carsdex
 
-
 ## Posten 
 
 ### Marken Name
@@ -17,9 +16,8 @@
 - Man soll das Datum der Aufnahme angeben können
 
 ### Bilder
-- Man soll Bilder hinzufügen können
 - Man soll die Bilder in die gewünschte reihenfolge anordenen können
-
+  
 ## Kategorisieren
 
 ### Neuste Posts
@@ -29,7 +27,7 @@
 - Die Posts sollen anhand der Marke Kategorisiert werden
 
 ### Modell Kategorisierung
-- Die Posts sollen in Unterkategorien in ihrer Markenkategoreie ein kategoriert werden
+- Die Posts sollen in Unterkategorien in ihrer Markenkategoreie einkategorirsiert werden
 
 ## Kontakt
 
