@@ -1,0 +1,14 @@
+﻿body {
+    background-color: #31293F;
+}
+
+.Marke {
+    background-color: #796EA8;
+    max-width: 190px;
+    height: 40px;
+    padding: 10px;
+    text-align: center;
+    border: 2px solid #796EA8;
+    border-radius: 5px;
+    color: rgb(211, 217, 233);
+}

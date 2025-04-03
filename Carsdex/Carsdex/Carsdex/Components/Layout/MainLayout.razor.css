@@ -133,6 +133,7 @@ main {
     left: 20px;
     text-align: center;
     padding: 10px 20px;
+    text-decoration: none;
 }
 
 .add-btn:hover {
@@ -168,8 +169,10 @@ main {
 }
 
 .btn-txt {
+    text-decoration: none;
     opacity: 0;
     transition: opacity 0.2s;
+    color: #D3D9E9;
 }
 
 .add-btn:hover::before,
