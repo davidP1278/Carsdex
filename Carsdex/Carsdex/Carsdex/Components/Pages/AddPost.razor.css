@@ -4,11 +4,47 @@
 
 .Marke {
     background-color: #796EA8;
-    max-width: 190px;
-    height: 40px;
-    padding: 10px;
+    width: 1400px;
+    height: 90px;
+    padding: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
     text-align: center;
+    font-size: 40px;
+    color: #D3D9E9;
     border: 2px solid #796EA8;
-    border-radius: 5px;
-    color: rgb(211, 217, 233);
+    border-radius: 40px;
+    outline: none;
 }
+
+.DatumOrt {
+    margin-top: 40px;
+    background-color: #796EA8;
+    color: #D3D9E9;
+    border: 2px solid #796EA8;
+    border-radius: 40px;
+    outline: none;
+    text-align: center;
+    width: 600px;
+    height: 80px;
+    padding: 20px 60px 20px 20px;
+    font-size: 40px;
+    margin-top: 40px;
+    position: relative;
+    box-sizing: border-box;
+}
+
+.inputcontainer {
+    position: relative;
+    display: inline-block;
+}
+
+    .inputcontainer svg {
+        position: absolute;
+        right: 40px;
+        top: 50%;
+        transform: translateY(15%);
+        pointer-events: none;
+        color: #D3D9E9;
+    }
