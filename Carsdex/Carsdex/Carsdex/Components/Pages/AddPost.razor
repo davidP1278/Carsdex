@@ -1,11 +1,14 @@
 ﻿@page "/AddPost"
-
+@using Microsoft.AspNetCore.Components.Forms
 @rendermode InteractiveServer
+
 <div style="margin-left: auto; margin-right: auto;">
 	<div>
+
 		<input placeholder="Marken Name" class="Marke" name="text" type="text">
 		<br />
 		<input placeholder="Model Name" class="Marke" name="text" type="text">
+
 	</div>
 
 	<div style="display: flex; gap: 200px">
@@ -24,6 +27,7 @@
 				<path d="M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10m0-7a3 3 0 1 1 0-6 3 3 0 0 1 0 6" />
 			</svg>
 		</div>
+
 	</div>
 
 	<div class="Box">
@@ -34,7 +38,30 @@
 					<path fill-rule="evenodd" d="M7.646 4.146a.5.5 0 0 1 .708 0l3 3a.5.5 0 0 1-.708.708L8.5 5.707V14.5a.5.5 0 0 1-1 0V5.707L5.354 7.854a.5.5 0 1 1-.708-.708z" />
 				</svg>
 			</div>
+			@if (imageSource is not null)
+			{
+				<img src="@imageSource" class="File"/>
+			}
+			<InputFile id="fileUpload" style="display:none;" OnChange="ShowImage" accept="image/*" />
 		</label>
 	</div>
-
 </div>
+
+@code {
+	private string? imageSource;
+
+	private async Task ShowImage(InputFileChangeEventArgs e)
+	{
+		var file = e.File;
+
+		if(file != null)
+		{
+			using var stream = file.OpenReadStream(maxAllowedSize: 10 * 1024 * 1024);
+			using var ms = new MemoryStream();
+			await stream.CopyToAsync(ms);
+			var buffer = ms.ToArray();
+			var base64 = Convert.ToBase64String(buffer);
+			imageSource = $"data:{file.ContentType};base64,{base64}";
+		}
+	}
+}
