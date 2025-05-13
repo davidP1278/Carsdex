@@ -38,30 +38,33 @@
 					<path fill-rule="evenodd" d="M7.646 4.146a.5.5 0 0 1 .708 0l3 3a.5.5 0 0 1-.708.708L8.5 5.707V14.5a.5.5 0 0 1-1 0V5.707L5.354 7.854a.5.5 0 1 1-.708-.708z" />
 				</svg>
 			</div>
-			@if (imageSource is not null)
+			@if (imageSource.Count > 0)
 			{
-				<img src="@imageSource" class="File"/>
+					@for (int i = 0; i < imageSource.Count && i < 5; i++)
+					{	
+						<img src="@imageSource[i]" class="File" />
+					}
 			}
-			<InputFile id="fileUpload" style="display:none;" OnChange="ShowImage" accept="image/*" />
+			<InputFile multiple id="fileUpload" style="display:none;" OnChange="ShowImage" accept="image/*" />
 		</label>
 	</div>
 </div>
 
 @code {
-	private string? imageSource;
+	private List<string> imageSource = new();
 
 	private async Task ShowImage(InputFileChangeEventArgs e)
-	{
-		var file = e.File;
-
-		if(file != null)
+	{	
+		foreach (var file in e.GetMultipleFiles())
 		{
 			using var stream = file.OpenReadStream(maxAllowedSize: 10 * 1024 * 1024);
 			using var ms = new MemoryStream();
 			await stream.CopyToAsync(ms);
 			var buffer = ms.ToArray();
 			var base64 = Convert.ToBase64String(buffer);
-			imageSource = $"data:{file.ContentType};base64,{base64}";
+			var imageSrc = $"data:{file.ContentType};base64,{base64}";
+
+			imageSource.Add(imageSrc);
 		}
 	}
 }
