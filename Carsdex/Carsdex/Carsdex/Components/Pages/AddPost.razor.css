@@ -19,7 +19,7 @@
 }
 
 .DatumOrt {
-    margin-top: 40px;
+    margin-top: 30px;
     background-color: #796EA8;
     color: #D3D9E9;
     border: 2px solid #796EA8;
@@ -50,10 +50,10 @@
     }
 
 .Box {
-    margin-top: 80px;
+    margin-top: 40px;
     background-color: #796EA8;
     width: 1400px;
-    height: 350px;
+    height: 300px;
     border-radius: 40px;
 }
 
@@ -61,14 +61,14 @@
     margin-left: 50px;
     margin-top: 50px;
     background-color: #A6A9C8;
-    width: 250px;
-    height: 250px;
+    width: 200px;
+    height: 200px;
     border-radius: 40px;
 }
 
 .UploadIcon {
-    margin-left: 93px;
-    margin-top: 93px;
+    margin-left: 68px;
+    margin-top: 78px;
     color: #D3D9E9;
 }
 
@@ -79,3 +79,24 @@
     margin-top: -180px;
 }
 
+.Button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 80px; 
+    margin-top: 40px;
+    margin-left: 820px;
+}
+
+.CancelButton,
+.SaveButton {
+    height: 60px;
+    width: 250px;
+    border-radius: 40px;
+    background-color: #796EA8;
+    text-align: center;
+    font-size: 32px;
+    line-height: 60px;
+    color: #D3D9E9;
+    cursor: pointer;
+}
