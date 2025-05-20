@@ -40,23 +40,31 @@
 			</div>
 			@if (imageSource.Count > 0)
 			{
-					@for (int i = 0; i < imageSource.Count && i < 5; i++)
-					{	
-						<img src="@imageSource[i]" class="File" />
-					}
+				<div class="ImageGrid">
+
+					<img src="@imageSource[0]" class="LargeImage" />
+
+					<div class="SmallImageGrid">
+						@for (int i = 1; i < imageSource.Count && i < 5; i++)
+						{
+							<img src="@imageSource[i]" class="SmallImage" />
+						}
+					</div>
+				</div>
 			}
 			<InputFile multiple id="fileUpload" style="display:none;" OnChange="ShowImage" accept="image/*" />
 		</label>
 	</div>
 
 	<div class="Button">
-		<div class="CancelButton">Cancel</div>
+		<div class="CancelButton" @onclick="LinkHome">Cancel</div>
+
 		<div class="SaveButton">Save</div>
 	</div>
 
 </div>
-
 @code {
+
 	private List<string> imageSource = new();
 
 	private async Task ShowImage(InputFileChangeEventArgs e)
@@ -72,5 +80,13 @@
 
 			imageSource.Add(imageSrc);
 		}
+	}
+
+	[Inject] 
+	NavigationManager NavigationManager { get; set; }
+
+	public void LinkHome()
+	{
+		NavigationManager.NavigateTo("");
 	}
 }
