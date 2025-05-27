@@ -19,7 +19,7 @@ Als Anonymer will ich verschiedene Posts von Fahrzeugen anschauen.
 Ich bin neu auf der Webseite und nicht Regestriert.
 
 ## Was wird gemacht?
-Ich bin das erste mal auf der Webseite und versuche mich zurecht zu finden. Ich hab mich nicht Regestriert, ich navigiere zu den neusten Einträgen und scrolle mich durch, bis ich ein schönes Auto sehe und klicke auf die Bilder um sie grösser zu sehen. 
+Ich bin das erste mal auf der Webseite und versuche mich zurecht zu finden. Ich hab mich nicht Regestriert, ich navigiere zu den neusten Einträgen und scrolle mich durch, bis ich ein schönes Auto sehe und klicke auf die Bilder um sie grösser zu sehen.
 
 ## Endzustand  
 Ich konnte die Bilder von Autos anschauen die ich schön fand.
@@ -37,3 +37,31 @@ Ich gehe auf die Seite um ein Auto zu suchen, um die Bilder davon zu sehen. Ich 
 
 ## Endzustand  
 Ich habe die gewünschten Bilder gefunden, habe dem Bild einen Like und Kommentar gegeben und konnte mich erfolgreich Regestrieren.
+
+---
+
+# Anwendungsfall User 1
+Ich möchte die neuen Beiträge anschauen die gepostet worden sind.
+
+## Ausgangslage
+Ich bin schon Regestriert.
+
+## Was wird gemacht?
+Ich war schon lange Zeit nicht mehr auf der Seite und habe mich entschlossen wieder mal rauf zu gehen. Ich öffne die Seite und sehe direkt alle neuen Posts die erstellt wurden. Ich scrolle durch und schaue mir die Bilder an die mir gefallen.
+
+## Endzustand
+Ich konnte alle neuen Post sehen und die Bilder anschauen die mir gefallen.
+
+---
+
+# Anwendungsfall User 2
+Ich möchte eine Frage stellen und ein Feedback geben.
+
+## Ausgangslage
+Ich bin schon Regestriert.
+
+## Was wird gemacht?
+Ich gehe auf die Webseite und möchte eine Frage und ein Feedback geben. Ich navigiere zum Kontakt Feld und trage meinen Namen so wie meine E-Mail ein, schreibe dann meine Frage und gebe ein Feedback.
+
+## Endzustand
+Ich konnte meine Frage stellen und ein Feedback geben.
