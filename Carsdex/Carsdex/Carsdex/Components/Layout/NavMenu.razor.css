@@ -1,4 +1,4 @@
-.navbar-toggler {
+﻿.navbar-toggler {
     appearance: none;
     cursor: pointer;
     width: 3.5rem;
@@ -35,10 +35,11 @@
 }
 
 .nav-item {
-    font-size: 0.9rem;
+    font-size: 1rem;
     padding-bottom: 0.5rem;
     align-content: center;
     padding: 16px 20px;
+    font-size: 60px;
 }
 
     .nav-item:first-of-type {
@@ -50,29 +51,19 @@
     }
 
     .nav-item ::deep .nav-link {
-        color: #d7d7d7;
-        background: none;
-        border: none;
-        border-radius: 4px;
+        color: white;
         height: 3rem;
         display: flex;
         align-content: center;
-        line-height: 3rem;
+        line-height: 2rem;
         width: 100%;
-        font-size: 30px;
+        font-size: 2.25rem; 
+        font-weight: normal;
     }
 
     .nav-item ::deep a.active {
-        font-size: 40px;
-        font-weight: 1000;
         color: white;
-    }
-
-    .nav-item ::deep .nav-link:hover {
-        font-size: 40px;
-        font-weight: 1000;
-        color: white;
-        align-content: center;
+        font-weight: bold;
     }
 
 .nav-scrollable {
@@ -95,4 +86,40 @@
     .nav-scrollable {
         display: flex;
     }
+}
+
+.login {
+    background-color: #D3D9E9;
+    color: #31293F;
+    border-radius: 15px;
+    text-align: center;
+    height: 60px;
+    font-size: 20px;
+    text-decoration: none;
+    position: fixed;
+    top: 20px; 
+    right: 40px; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 20px; 
+
+}
+
+.searchBar {
+    display: flex;
+    justify-content: center; 
+    padding: 20px;
+    margin-top: -10px;
+}
+
+.search {
+    background-color: #D3D9E9;
+    color: #31293F;
+    border: none;
+    border-radius: 999px;
+    padding: 10px 600px;
+    outline: none;
+    box-shadow: none;
+    font-size: 20px;
 }

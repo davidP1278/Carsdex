@@ -45,7 +45,7 @@
 					<img src="@imageSource[0]" class="LargeImage" />
 
 					<div class="SmallImageGrid">
-						@for (int i = 1; i < imageSource.Count && i < 5; i++)
+						@for (int i = 1; i < imageSource.Count && i < 11; i++)
 						{
 							<img src="@imageSource[i]" class="SmallImage" />
 						}
@@ -63,6 +63,7 @@
 	</div>
 
 </div>
+
 @code {
 
 	private List<string> imageSource = new();
@@ -77,14 +78,15 @@
 			var buffer = ms.ToArray();
 			var base64 = Convert.ToBase64String(buffer);
 			var imageSrc = $"data:{file.ContentType};base64,{base64}";
-
-			imageSource.Add(imageSrc);
+			if (!imageSource.Contains(imageSrc)) // Checks if it already exists
+				imageSource.Add(imageSrc);
 		}
 	}
 
-	[Inject] 
-	NavigationManager NavigationManager { get; set; }
 
+	[Inject]
+	NavigationManager NavigationManager { get; set; }
+	
 	public void LinkHome()
 	{
 		NavigationManager.NavigateTo("");
