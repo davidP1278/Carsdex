@@ -2,21 +2,41 @@
     background-color: #31293F;
 }
 
+.select-wrapper {
+    position: relative;
+    width: 1400px;
+    margin: 30px auto 0 auto;
+}
+
 .Marke {
     background-color: #796EA8;
-    width: 1400px;
+    width: 100%;
     height: 90px;
     padding: 20px;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 30px;
     text-align: center;
-    font-size: 40px;
+    font-size: 40px; 
     color: #D3D9E9;
     border: 2px solid #796EA8;
     border-radius: 40px;
     outline: none;
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
 }
+    .Marke option {
+        font-size: 16px; 
+        padding: 5px 10px; 
+        color: white; 
+    }
+
+.dropdown-arrow {
+    position: absolute;
+    right: 30px;
+    top: 50%;
+    transform: translateY(-50%);
+    pointer-events: none;
+}
+
 
 .DatumOrt {
     margin-top: 30px;

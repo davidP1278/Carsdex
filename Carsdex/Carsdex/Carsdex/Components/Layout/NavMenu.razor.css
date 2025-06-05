@@ -98,7 +98,7 @@
     text-decoration: none;
     position: fixed;
     top: 20px; 
-    right: 40px; 
+    right: 30px; 
     display: flex;
     align-items: center;
     justify-content: center;
@@ -118,8 +118,9 @@
     color: #31293F;
     border: none;
     border-radius: 999px;
-    padding: 10px 600px;
+    padding: 10px 500px;
     outline: none;
     box-shadow: none;
     font-size: 20px;
+    margin-left: 120px; 
 }
