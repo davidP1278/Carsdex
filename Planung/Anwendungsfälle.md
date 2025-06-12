@@ -1,14 +1,14 @@
 # 1. Anwendungsfall Admin
-Als Admin will ich neue Posts erstellen können und diese dann auch veröffentlichen.
+Als Admin will ich neue Posts psoten.
 
-## Ausgangslage  
-Ich bin Ausgeloggt 
+## Ausgangslage
+Ich bin Ausgeloggt.
 
 ## Was wird gemacht?  
-Ich logge mich mit meinem Account ein damit ich alle rechte erhalte, die ich als Admin habe. Danach navigiere ich zum Plus-Symbol, wo ich einen neuen Post erstellen kann. Dort gebe ich die Daten wie den Marken- und Modellnamen ein, lade ein oder mehrere Bilder hoch und poste den Beitrag.
+Ich logge mich mit meinem Account ein damit ich alle rechte erhalte, die ich als Admin habe. Danach navigiere ich zur erstell Seite. Dort gebe ich die Daten wie den Marken- und Modellnamen ein, lade ein oder mehrere Bilder hoch und poste den Beitrag.
 
-## Endzustand  
-Am Schluss bin ich als Admin eingeloggt und habe einen fertigen Eintrag, den ich unter dem angegebenen Marken- und Modellnamen finden kann. Es sollen alle Daten sowie die Bilder angezeigt werden.
+## Endzustand
+Am Schluss bin ich als Admin weiterhin eingeloggt und der Post ist gepostet.
 
 ---
 
@@ -16,27 +16,41 @@ Am Schluss bin ich als Admin eingeloggt und habe einen fertigen Eintrag, den ich
 Als Anonymer will ich verschiedene Posts von Fahrzeugen anschauen.
 
 ## Ausgangslage  
-Ich bin neu auf der Webseite und nicht Regestriert.
+Ich bin nicht Regestriert.
 
 ## Was wird gemacht?
-Ich bin das erste mal auf der Webseite und versuche mich zurecht zu finden. Ich hab mich nicht Regestriert, ich navigiere zu den neusten Einträgen und scrolle mich durch, bis ich ein schönes Auto sehe und klicke auf die Bilder um sie grösser zu sehen.
+Ich bin auf der Startseite und sehe die neusten Einträgen und scrolle mich durch, bis ich ein schönes Auto und schaue mir die Bildergalerie an.
 
 ## Endzustand  
-Ich konnte die Bilder von Autos anschauen die ich schön fand.
+Ich konnte die Bildergalerien anschauen.
 
 ---
 
 # Anwendungsfall Anonym 2
-Als Anonymer will ich ein bestimmtes Auto suchen, von dem ich die Bilder sehen will.
+Als Anonymer will ich ein bestimmtes Auto suchen, von dem ich die Bildergalerie ansehen will.
 
 ## Ausgangslage  
-Ich bin nicht das erste mal auf der Seite habe mich nicht Regestriert.
+Ich bin nicht Regestriert.
 
 ## Was wird gemacht?  
-Ich gehe auf die Seite um ein Auto zu suchen, um die Bilder davon zu sehen. Ich gehe auf das Suchfeld und gebe den Namen ein, desen Auto ich suche. Ich finde das passende Auto und Bilder dazu welche ich anschaue. Ich möchte dem Post Liken und einen Kommentar dazu schreiben. Für das Regestriere ich mich und schreibe danach einen Kommentar.
+Ich gehe auf die Hauptseite. Ich gebe den Namen des Autos ins Suchfeld ein. Ich finde das passende Auto und Bilder dazu welche ich anschaue.
 
 ## Endzustand  
-Ich habe die gewünschten Bilder gefunden, habe dem Bild einen Like und Kommentar gegeben und konnte mich erfolgreich Regestrieren.
+Ich konnte das gesuchte Auto finden und die Bildergalerie anschauen.
+
+---
+
+# Anwendungsfall Anonym 3
+Als Anonymer will ich einem Post einen Like geben.
+
+## Ausgangslage  
+Ich bin nicht Regestriert.
+
+## Was wird gemacht?  
+Ich bin auf der Startseite und sehe einen Post der mir gefällt, da ich noch nicht Regestriert bin navigiere ich auf die Login Seite ich logge mich als neuer User ein und anschliessend like ich den von mir gefundenen Post.
+
+## Endzustand  
+Ich habe dem Bild einen Like gegeben und konnte mich erfolgreich Regestrieren.
 
 ---
 
@@ -47,21 +61,21 @@ Ich möchte die neuen Beiträge anschauen die gepostet worden sind.
 Ich bin schon Regestriert.
 
 ## Was wird gemacht?
-Ich war schon lange Zeit nicht mehr auf der Seite und habe mich entschlossen wieder mal rauf zu gehen. Ich öffne die Seite und sehe direkt alle neuen Posts die erstellt wurden. Ich scrolle durch und schaue mir die Bilder an die mir gefallen.
+Ich öffne die Hauptseite und sehe direkt alle neuen Posts. Ich scrolle mich durch und schaue mir die Bildergalerien an die mir gefallen.
 
 ## Endzustand
-Ich konnte alle neuen Post sehen und die Bilder anschauen die mir gefallen.
+Ich konnte alle neuen Post sehen und die Bildergalerien anschauen die mir gefallen.
 
 ---
 
 # Anwendungsfall User 2
-Ich möchte eine Frage stellen und ein Feedback geben.
+Ich möchte das Kontaktformular ausfüllen.
 
 ## Ausgangslage
 Ich bin schon Regestriert.
 
 ## Was wird gemacht?
-Ich gehe auf die Webseite und möchte eine Frage und ein Feedback geben. Ich navigiere zum Kontakt Feld und trage meinen Namen so wie meine E-Mail ein, schreibe dann meine Frage und gebe ein Feedback.
+Ich gehe auf die Webseite und navigiere zum Kontaktformular. Ich gebe meine Daten an und gebe dann entsprechend ein Feedback oder stelle eine Frage.
 
 ## Endzustand
-Ich konnte meine Frage stellen und ein Feedback geben.
+Ich konnte das Kontaktformular ausfüllen.
