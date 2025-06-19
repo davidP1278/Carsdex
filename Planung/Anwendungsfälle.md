@@ -5,11 +5,11 @@ Als Admin will ich neue Posts psoten.
 Ich bin Ausgeloggt.
 
 ## Was wird gemacht?  
-Ich logge mich mit meinem Account ein damit ich alle rechte erhalte, die ich als Admin habe. Danach navigiere ich zur erstell Seite. Dort gebe ich die Daten wie den Marken- und Modellnamen ein, lade ein oder mehrere Bilder hoch und poste den Beitrag.
+Ich logge mich mit meinem Account ein damit ich alle rechte erhalte, die ich als Admin habe. Danach navigiere ich zur Post Seite. Dort gebe ich die Daten wie den Marken- und Modellnamen ein, lade ein oder mehrere Bilder hoch und poste den Beitrag.
 
 ## Endzustand
 Am Schluss bin ich als Admin weiterhin eingeloggt und der Post ist gepostet.
-
+ 
 ---
 
 # Anwendungsfall Anonym 1
@@ -79,3 +79,17 @@ Ich gehe auf die Webseite und navigiere zum Kontaktformular. Ich gebe meine Date
 
 ## Endzustand
 Ich konnte das Kontaktformular ausfüllen.
+
+---
+
+# Anwendungsfall Besucher
+Ich als Besucher möchte den QR Code ausfüllen.
+
+## Ausgangslage
+Ich bin das erstemal hier am Infoaben
+
+## Was wird gemacht?
+Ich lese mir diesen Anwendungsfall durch und male das Feld P3 aus.
+
+## Endzustand 
+Ich konnte ein Feld ausmalen.
