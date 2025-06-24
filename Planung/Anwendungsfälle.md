@@ -79,17 +79,3 @@ Ich gehe auf die Webseite und navigiere zum Kontaktformular. Ich gebe meine Date
 
 ## Endzustand
 Ich konnte das Kontaktformular ausfüllen.
-
----
-
-# Anwendungsfall Besucher
-Ich als Besucher möchte den QR Code ausfüllen.
-
-## Ausgangslage
-Ich bin das erstemal hier am Infoaben
-
-## Was wird gemacht?
-Ich lese mir diesen Anwendungsfall durch und male das Feld P3 aus.
-
-## Endzustand 
-Ich konnte ein Feld ausmalen.
