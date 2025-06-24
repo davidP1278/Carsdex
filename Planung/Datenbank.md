@@ -1,4 +1,4 @@
 # Datenbank
 
 ## Datenbank Schema
-![Datenbank Schema](Bilder/DatenbankSchema.png)
+![Datenbank Schema](Bilder/ER-Diagram.png)
