@@ -8,7 +8,7 @@
 .bar {
     background-color: #554D74;
     display: flex;
-    padding: 16px 16px;
+    padding: 16px;
     gap: 20px;
     align-content: center;
     position: sticky;
@@ -20,10 +20,14 @@
 .content {
     display: flex;
     flex: 1;
-    overflow-y: auto; 
+    overflow-y: auto;
     height: 100vh;
     scrollbar-width: none;
 }
+
+    .content::-webkit-scrollbar {
+        display: none;
+    }
 
 main {
     flex: 1;
@@ -42,28 +46,60 @@ main {
     align-items: center;
 }
 
-    .top-row ::deep a, .top-row ::deep .btn-link {
+    .top-row ::deep a,
+    .top-row ::deep .btn-link {
         white-space: nowrap;
         margin-left: 1.5rem;
         text-decoration: none;
     }
 
-    .top-row ::deep a:hover, .top-row ::deep .btn-link:hover {
-        text-decoration: underline;
-    }
+        .top-row ::deep a:hover,
+        .top-row ::deep .btn-link:hover {
+            text-decoration: underline;
+        }
 
-    .top-row ::deep a:first-child {
-        overflow: hidden;
-        text-overflow: ellipsis;
-    }
+        .top-row ::deep a:first-child {
+            overflow: hidden;
+            text-overflow: ellipsis;
+        }
 
 @media (max-width: 640.98px) {
+    .page {
+        flex-direction: column;
+    }
+
+    .sidebar {
+        width: 100%;
+        height: auto;
+        position: relative;
+        padding: 10px;
+        display: flex;
+        justify-content: center;
+    }
+
     .top-row {
         justify-content: space-between;
     }
 
-    .top-row ::deep a, .top-row ::deep .btn-link {
-        margin-left: 0;
+        .top-row ::deep a,
+        .top-row ::deep .btn-link {
+            margin-left: 0;
+        }
+
+    .top-row,
+    article {
+        padding-left: 1rem !important;
+        padding-right: 1rem !important;
+    }
+
+    .content {
+        height: auto;
+    }
+
+    .icon-btn.add-btn {
+        left: 50%;
+        transform: translateX(-50%);
+        bottom: 20px;
     }
 }
 
@@ -85,13 +121,14 @@ main {
         z-index: 1;
     }
 
-    .top-row.auth ::deep a:first-child {
-        flex: 1;
-        text-align: right;
-        width: 0;
-    }
+        .top-row.auth ::deep a:first-child {
+            flex: 1;
+            text-align: right;
+            width: 0;
+        }
 
-    .top-row, article {
+    .top-row,
+    article {
         padding-left: 2rem !important;
         padding-right: 1.5rem !important;
     }
@@ -116,7 +153,7 @@ main {
         top: 0.5rem;
     }
 
-/* From Uiverse.io by mrhyddenn */
+/* === Add Post Button Styles (Uiverse) === */
 .icon-btn {
     width: 50px;
     height: 50px;
@@ -124,15 +161,14 @@ main {
     background: #A6A9C8;
     border-radius: 25px;
     overflow: hidden;
-    position: relative;
-    transition: width 0.2s ease-in-out;
-    font-weight: 500;
-    font-family: inherit;
     position: fixed;
     bottom: 20px;
     left: 20px;
     text-align: center;
     padding: 10px 20px;
+    font-weight: 500;
+    font-family: inherit;
+    transition: width 0.2s ease-in-out;
     text-decoration: none;
 }
 
@@ -153,7 +189,6 @@ main {
 
 .add-btn::after {
     right: 14px;
-    overflow: hidden;
     border-top-right-radius: 2px;
     border-bottom-right-radius: 2px;
 }
