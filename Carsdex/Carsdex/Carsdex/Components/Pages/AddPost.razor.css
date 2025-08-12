@@ -1,11 +1,13 @@
 ﻿body {
     background-color: #31293F;
+    overflow-y: scroll;
 }
 
 .select-wrapper {
     position: relative;
     width: 1400px;
     margin: 30px auto 0 auto;
+
 }
 
 .Marke {
