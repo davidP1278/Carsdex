@@ -115,26 +115,19 @@
 
 .searchBar {
     display: flex;
-    padding: 20px;
-    margin-top: -10px;
+    align-items: center;
+    width: 100%;
+    max-width: 2000px;
+    box-sizing: border-box;
 }
 
 .search {
+    padding: 10px 18px;
     background-color: #D3D9E9;
     color: #31293F;
     border: none;
     border-radius: 999px;
     outline: none;
-    box-shadow: none;
-    font-size: 20px;
-    width: 1200px;
-    padding: 10px;    
-    margin-left: 120px;  
-}
-
-@media (max-width: 600px) {
-    .search {
-        width: 100px;
-        margin-left: 15px;
-    }
+    font-size: 16px;
+    box-sizing: border-box;
 }

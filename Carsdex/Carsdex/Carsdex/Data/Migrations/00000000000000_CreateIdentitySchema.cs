@@ -24,7 +24,7 @@ namespace Carsdex.Migrations
 				{
 					table.PrimaryKey("PK_AspNetRoles", x => x.Id);
 				});
-
+			
 			migrationBuilder.CreateTable(
 				name: "AspNetUsers",
 				columns: table => new
@@ -62,7 +62,7 @@ namespace Carsdex.Migrations
 				},
 				constraints: table =>
 				{
-					table.PrimaryKey("PK_AspNetRoleClaims", x => x.Id);
+					table.PrimaryKey("PK_AspNetRoleClaims", x => x.Id); 
 					table.ForeignKey(
 						name: "FK_AspNetRoleClaims_AspNetRoles_RoleId",
 						column: x => x.RoleId,
