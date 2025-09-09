@@ -1,7 +1,25 @@
 # Carsdex
+## Inhaltsverzeichnis
+- Projektbeschreibung
+  - Wieso?
+  - Nutzen
+- Glossar
+
+## Projektbeschreibung
+Dieses Projekt ist eine Webseite, auf der ich meine selbstgemachten Autofotos hochladen und mit Informationen wie **Marke, Modell, Ort und Datum** versehen kann.  
+Die User der Seite können sich die Beiträge auf der Startseite ansehen, gezielt nach bestimmten Autos suchen oder nach Automarken sortieren.
+
+### Wieso  
+Da ich meine Autofotos nicht einfach nur unsortiert auf meinem PC liegen lassen wollte, habe ich nach einer Möglichkeit gesucht, sie übersichtlich zu ordnen und zu präsentieren.
+
+So entstand die Idee, eine eigene Webseite zu erstellen. Dort kann ich meine Bilder nicht nur nach **Marke, Modell, Ort und Datum** sortieren, sondern sie auch anderen Personen zeigen, die sich für Autos interessieren.
+
+### Nutzen
+- Ich habe eine **strukturierte Sammlung** meiner Autofotos.
+- Besucher können die Bilder nach **Marke oder Modell durchsuchen**.
+- Die Seite dient als **eigene Galerie** und wächst stetig mit meinen neuen Fotos. 
 
 ## Glossar
-
 | Begriff           | Bedeutung                                                                                                            |
 | ----------------- | -------------------------------------------------------------------------------------------------------------------- |
 | Post              | Ein Beitrag der Daten zum Auto enthält und die dazu gehörigen Bilder.                                                |
