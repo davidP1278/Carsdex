@@ -3,6 +3,8 @@
 - Projektbeschreibung
   - Wieso?
   - Nutzen
+- Diagramme
+  - ERD (Datenbankschema)
 - Glossar
 
 ## Projektbeschreibung
@@ -18,6 +20,10 @@ So entstand die Idee, eine eigene Webseite zu erstellen. Dort kann ich meine Bil
 - Ich habe eine **strukturierte Sammlung** meiner Autofotos.
 - Besucher können die Bilder nach **Marke oder Modell durchsuchen**.
 - Die Seite dient als **eigene Galerie** und wächst stetig mit meinen neuen Fotos. 
+
+## Diagramme
+### ERD (Datenbankschema)
+![ERD](Planung/Datenbank/Bilder/ER-Diagram2.0.png)
 
 ## Glossar
 | Begriff           | Bedeutung                                                                                                            |

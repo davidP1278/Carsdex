@@ -19,4 +19,8 @@
     <ProjectReference Include="..\Carsdex.Client\Carsdex.Client.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="Models\" />
+  </ItemGroup>
+
 </Project>
