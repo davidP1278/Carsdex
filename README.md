@@ -23,7 +23,7 @@ So entstand die Idee, eine eigene Webseite zu erstellen. Dort kann ich meine Bil
 
 ## Diagramme
 ### ERD (Datenbankschema)
-![ERD](Planung/Datenbank/Bilder/ER-Diagram3.0.png)
+![ERD](Planung/Datenbank/Bilder/ER-Diagram4.0.png)
 
 ## Glossar
 | Begriff           | Bedeutung                                                                                                            |
