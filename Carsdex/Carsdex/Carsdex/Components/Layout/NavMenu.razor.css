@@ -1,133 +1,67 @@
-﻿.navbar-toggler {
-    appearance: none;
-    cursor: pointer;
-    width: 3.5rem;
-    height: 2.5rem;
-    color: white;
-    position: absolute;
-    top: 0.5rem;
-    right: 1rem;
-    border: 1px solid rgba(255, 255, 255, 0.1);
-    background: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%28255, 255, 255, 0.55%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e") no-repeat center/1.75rem rgba(255, 255, 255, 0.1);
-}
-
-.navbar-toggler:checked {
-    background-color: rgba(255, 255, 255, 0.5);
-}
-
-.top-row {
-    height: 3.5rem;
-    background-color: rgba(0,0,0,0.4);
-}
-
-.navbar-brand {
-    font-size: 1.1rem;
-}
-
-.bi {
-    display: inline-block;
-    position: relative;
-    width: 1.25rem;
-    height: 1.25rem;
-    margin-right: 0.75rem;
-    top: -1px;
-    background-size: cover;
-}
-
-.nav-item {
-    font-size: 1rem;
-    padding-bottom: 0.5rem;
-    align-content: center;
-    padding: 16px 20px;
-    font-size: 60px;
-}
-
-    .nav-item:first-of-type {
-        padding-top: 1rem;
-    }
-
-    .nav-item:last-of-type {
-        padding-bottom: 1rem;
-    }
-
-    .nav-item ::deep .nav-link {
-        color: white;
-        height: 3rem;
-        display: flex;
-        align-content: center;
-        line-height: 2rem;
-        width: 100%;
-        font-size: 2.25rem; 
-        font-weight: normal;
-    }
-
-    .nav-item ::deep a.active {
-        color: white;
-        font-weight: bold;
-    }
-
-.nav-scrollable {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
-    width: 20vw;
-    align-content: center;
-}
-
-.navbar-toggler:checked ~ .nav-scrollable {
-    display: flex; 
-}
-
-@media (min-width: 600px) {
-    .navbar-toggler {
-        display: flex
-    }
-
-    .nav-scrollable {
-        display: flex;
-    }
-}
-
-.login {
-    background-color: #D3D9E9;
-    color: #31293F;
-    border-radius: 15px;
-    text-align: center;
-    height: 60px;
-    font-size: 20px;
-    text-decoration: none;
+.Topbar {
+    height: 100px;
+    width: 100%;
+    background-color: #1F1F1E;
     position: fixed;
-    top: 20px; 
-    right: 30px; 
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 2rem;
+    box-sizing: border-box;
+    gap: 1rem;
+}
+
+.Login {
+    background-color: black;
+    border: 2px solid white;
+    padding: 10px;
+    border-radius: 17px;
+    height: 60px;
+    width: 120px;
+    color: white;
+    font-size: 20px;
+    text-align: center;
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: 0 20px; 
 }
 
-@media (max-width: 600px) {
-    .login {
-        font-size: 16px;
-        padding: 0 12px;
-        right: 10px;
+.Searchbar {
+    flex: auto; 
+    max-width: 820px;
+}
+
+    .Searchbar input {
+        width: 100%;
+        height: 49px;
+        background-color: black;
+        border: 2px solid white;
+        border-radius: 20px;
+        color: white;
+        font-size: 20px;
+        padding: 5px 15px;
+        outline: none;
+        box-sizing: border-box;
     }
-}
 
-.searchBar {
+        .Searchbar input::placeholder {
+            color: #FFFFFF;
+        }
+
+.social-links {
     display: flex;
-    align-items: center;
-    width: 100%;
-    max-width: 2000px;
-    box-sizing: border-box;
+    justify-content: center; 
+    align-items: center; 
+    gap: 55px; 
 }
 
-.search {
-    padding: 10px 18px;
-    background-color: #D3D9E9;
-    color: #31293F;
-    border: none;
-    border-radius: 999px;
-    outline: none;
-    font-size: 16px;
-    box-sizing: border-box;
+.Link-TT-IG {
+    margin-right: 15px; 
+    background-color: black;
+    height: 75px;
+    width: 75px;
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    border-radius: 17px;
 }

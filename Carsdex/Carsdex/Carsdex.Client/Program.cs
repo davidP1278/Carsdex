@@ -1,20 +1,20 @@
-using Carsdex.Client;
+using carsdex.Client;
 using Microsoft.AspNetCore.Components.Authorization;
 using Microsoft.AspNetCore.Components.WebAssembly.Hosting;
 
-namespace Carsdex.Client
+namespace carsdex.Client
 {
-	internal class Program
-	{
-		static async Task Main(string[] args)
-		{
-			var builder = WebAssemblyHostBuilder.CreateDefault(args);
+    internal class Program
+    {
+        static async Task Main(string[] args)
+        {
+            var builder = WebAssemblyHostBuilder.CreateDefault(args);
 
-			builder.Services.AddAuthorizationCore();
-			builder.Services.AddCascadingAuthenticationState();
-			builder.Services.AddSingleton<AuthenticationStateProvider, PersistentAuthenticationStateProvider>();
+            builder.Services.AddAuthorizationCore();
+            builder.Services.AddCascadingAuthenticationState();
+            builder.Services.AddSingleton<AuthenticationStateProvider, PersistentAuthenticationStateProvider>();
 
-			await builder.Build().RunAsync();
-		}
-	}
+            await builder.Build().RunAsync();
+        }
+    }
 }
