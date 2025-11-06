@@ -25,6 +25,9 @@ So entstand die Idee, eine eigene Webseite zu erstellen. Dort kann ich meine Bil
 ### ERD (Datenbankschema)
 ![ERD](Planung/Datenbank/Bilder/ER-Diagram4.0.png)
 
+### UML (Klassendiagramm)
+![UML](UML_Carsdex.png)
+
 ## Glossar
 | Begriff           | Bedeutung                                                                                                            |
 | ----------------- | -------------------------------------------------------------------------------------------------------------------- |
