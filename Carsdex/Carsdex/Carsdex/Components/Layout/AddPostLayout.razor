@@ -1,14 +1,72 @@
 ﻿@inherits LayoutComponentBase
 
 <div class="page">
-    <div class="container">
-        <div class="img-container"></div>
-        <div class="data-container"></div>
-    </div>
+	<div class="container">
 
-    <main>
-        <article class="main">
-            @Body
-        </article>
-    </main>
+		<div class="Img-Layout">
+			<select name="auswahl" id="auswahl">
+				<option value="wert1">Layout 1</option>
+				<option value="wert2">Layout 2</option>
+				<option value="wert3">Layout 3</option>
+				<option value="wert4">Layout 4</option>
+				<option value="wert5">Layout 5</option>
+			</select>
+		
+
+			<div class="img-container">
+
+			</div>
+
+		</div>
+		<div class="data-container">
+
+			<div class="text-style">
+				<svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" fill="white" class="bi bi-caret-down-fill" viewBox="0 0 16 16">
+					<path d="M7.247 11.14 2.451 5.658C1.885 5.013 2.345 4 3.204 4h9.592a1 1 0 0 1 .753 1.659l-4.796 5.48a1 1 0 0 1-1.506 0z" />
+				</svg>
+				<input type="text" placeholder="Modelname">
+			</div>
+
+
+			<div class="text-style">
+				<svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" fill="white" class="bi bi-caret-down-fill" viewBox="0 0 16 16">
+					<path d="M7.247 11.14 2.451 5.658C1.885 5.013 2.345 4 3.204 4h9.592a1 1 0 0 1 .753 1.659l-4.796 5.48a1 1 0 0 1-1.506 0z" />
+				</svg>
+				<input type="text" placeholder="Markenname">
+			</div>
+
+			<div class="text-style">
+				<svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" fill="white" class="bi bi-geo-alt-fill" viewBox="0 0 16 16">
+					<path d="M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10m0-7a3 3 0 1 1 0-6 3 3 0 0 1 0 6" />
+				</svg>
+				<input type="text" placeholder="Ort">
+			</div>
+
+			<div class="text-style">
+				<svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" fill="white" class="bi bi-calendar" viewBox="0 0 16 16">
+					<path d="M3.5 0a.5.5 0 0 0-.5.5V1H2a2 2 0 0 0-2 2v1h16V3a2 2 0 0 0-2-2h-1V.5a.5.5 0 0 0-1 0V1H3.5V.5a.5.5 0 0 0-.5-.5zM0 5v9a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V5H0z" />
+				</svg>
+				<input type="text" placeholder="Datum">
+			</div>
+
+			<div class="text-style upload-style">
+				<label for="file-upload">
+					<svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" fill="white" class="bi bi-plus-circle" viewBox="0 0 16 16">
+						<path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14m0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16" />
+						<path d="M8 4a.5.5 0 0 1 .5.5v3h3a.5.5 0 0 1 0 1h-3v3a.5.5 0 0 1-1 0v-3h-3a.5.5 0 0 1 0-1h3v-3A.5.5 0 0 1 8 4" />
+					</svg>
+					Weitere Bilder
+				</label>
+				<input id="file-upload" type="file" accept="image/*" multiple>
+
+			</div>
+
+		</div>
+	</div>
+
+	<main>
+		<article class="main">
+			@Body
+		</article>
+	</main>
 </div>

@@ -9,26 +9,103 @@
 .container {
     display: flex;
     flex-direction: row;
-    align-items: center;
+    align-items: flex-end; 
     gap: 60px;
     width: 70%;
     max-width: 1600px;
+    margin: 0 auto;
 }
 
-.img-container {
-    border: 1px solid white;
-    width: 750px;
-    height: 50vh; 
-    max-height: 450px; 
+
+.Img-Layout {
+    width: 100%;
+    max-width: 800px;
+    height: auto; 
+    max-height: 550px;
     background-color: #1F1F1E;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start; 
+    box-sizing: border-box;
+}
+
+    .Img-Layout select {
+        background-color: transparent;
+        border: 2px solid white;
+        color: white;
+        padding: 10px 15px;
+        border-radius: 25px;
+        appearance: none;
+        margin-bottom: 15px;
+        font-size: clamp(16px, 2vw, 28px);
+        width: 30%; 
+        max-width: 400px;
+    }
+        select option {
+            background-color: #1F1F1E;
+            color: white; 
+        }
+
+.img-container {
+    width: 100%;
+    max-width: 750px;
+    height: 37vh; 
+    max-height: 450px;
+    background-color: #1F1F1E;
+    border: 2px solid white;
+    box-sizing: border-box;
 }
 
 .data-container {
-    border: 1px solid white;
-    width: 350px;
-    height: 60vh; 
-    max-height: 550px; 
+    width: 100%;
+    max-width: 350px;
+    height: calc(37vh + 15px + 65px);
+    max-height: 550px;
     background-color: #1F1F1E;
-    margin-bottom: 10vh; 
+    border: 2px solid white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    overflow-y: auto;
+    box-sizing: border-box;
 }
 
+    .data-container::-webkit-scrollbar {
+        width: 8px;
+    }
+
+.text-style {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    color: white;
+    font-size: 20px;
+    background-color: transparent;
+    border: none;
+    padding: 6px 0px 6px 15px;
+    flex-shrink: 0;
+}
+
+    .text-style input[type="text"] {
+        background: none;
+        border: none;
+        color: white;
+        font-size: 20px;
+        outline: none;
+        width: 100%;
+    }
+
+.upload-style input[type="file"] {
+    display: none;
+}
+
+.upload-style label {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    color: white;
+    text-decoration: underline;
+    cursor: pointer;
+    font-size: 20px;
+}
