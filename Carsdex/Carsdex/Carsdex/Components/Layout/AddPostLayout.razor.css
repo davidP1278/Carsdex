@@ -69,6 +69,7 @@
     justify-content: space-evenly;
     overflow-y: auto;
     box-sizing: border-box;
+    position: relative;
 }
 
     .data-container::-webkit-scrollbar {
@@ -108,4 +109,24 @@
     text-decoration: underline;
     cursor: pointer;
     font-size: 20px;
+}
+
+.Delet_Post {
+    position: fixed;
+    bottom: 16%; 
+    right: 15.5%; 
+    display: flex;
+    gap: 25px;
+}
+
+.Delete,
+.Post {
+    border: 2px solid white;
+    background: transparent;
+    padding: 1vw;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
 }
