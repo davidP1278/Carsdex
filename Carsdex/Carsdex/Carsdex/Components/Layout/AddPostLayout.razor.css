@@ -9,12 +9,14 @@
 .container {
     display: flex;
     flex-direction: row;
-    align-items: flex-end; 
+    align-items: flex-end;
     gap: 60px;
     width: 70%;
     max-width: 1600px;
     margin: 0 auto;
+    position: relative; 
 }
+
 
 
 .Img-Layout {
@@ -112,9 +114,9 @@
 }
 
 .Delet_Post {
-    position: fixed;
-    bottom: 16%; 
-    right: 15.5%; 
+    position: absolute; 
+    bottom: -110px;
+    right: 0; 
     display: flex;
     gap: 25px;
 }
