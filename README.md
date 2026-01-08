@@ -6,6 +6,7 @@
 - Diagramme
   - ERD (Datenbankschema)
 - Glossar
+- Quellen
 
 ## Projektbeschreibung
 Dieses Projekt ist eine Webseite, auf der ich meine selbstgemachten Autofotos hochladen und mit Informationen wie **Marke, Modell, Ort und Datum** versehen kann.  
@@ -39,3 +40,8 @@ So entstand die Idee, eine eigene Webseite zu erstellen. Dort kann ich meine Bil
 | Modellname        | Der Modellname eines Autos (Bsp. 911 GT 3RS)                                                                         |
 | Bildergalerie     | Eine Funktion, um Bilder eines Fahrzeugs in grösserer Darstellung anzuschauen.                                       |
 | Startseite        | Die erste Seite, die beim Öffnen der Webseite angezeigt wird. Sie zeigt alle Beiträge an, sortiert von neu nach alt. |
+
+## Quellen
+Telerik, 08.01.2026, ImagePreview: https://www.telerik.com/blazor-ui/documentation/knowledge-base/upload-preview-image
+
+Stackoverflow, 08.01.2026, RenderFragment: https://stackoverflow.com/questions/75757982/referencing-a-blazor-component-renderfragment-inline-rather-than-as-nested-child
