@@ -4,7 +4,7 @@
     align-items: flex-start;
     gap: 80px;
     width: 100%;
-    max-width: 1400px; 
+    max-width: 1400px;
     margin: 0 auto;
     position: relative;
     padding-bottom: 120px;
@@ -42,11 +42,67 @@ select option {
 
 .img-container {
     width: 100%;
-    height: 420px; 
+    height: 420px;
     background-color: #1F1F1E;
     border: 2px solid white;
     box-sizing: border-box;
-    color:red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Boxen */
+.big-container, .small-container, .bottom-container {
+    border: 2px solid white;
+    background: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-weight: bold;
+}
+
+.big-container {
+    width: 240px;
+    height: 320px;
+    font-size: 64px;
+    margin-right: 40px;
+}
+
+.small-container {
+    width: 110px;
+    height: 150px;
+    font-size: 48px;
+    margin-right: 15px;
+}
+
+.bottom-container {
+    width: 245px;
+    height: 155px;
+    font-size: 64px;
+}
+
+    .big-container img,
+    .small-container img,
+    .bottom-container img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+
+.small-wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.small-row {
+    display: flex;
+    gap: 10px;
+}
+
+.plus {
+    pointer-events: none;
 }
 
 /*RIGHT SIDE*/
@@ -116,7 +172,7 @@ select option {
 }
 
 /*RESPONSIVE*/
-@media (max-width: 1100px) {
+@media (max-width: 1380px) {
     .container {
         flex-direction: column;
         align-items: center;

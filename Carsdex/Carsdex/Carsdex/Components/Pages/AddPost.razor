@@ -17,33 +17,43 @@
             @switch (SelectedLayout)
             {
                 case 1:
-                    <div>+</div>
+                    @ImageBox(1, "big-container")
                     break;
 
                 case 2:
-                    <div>+</div>
-                    <div>+</div>
+                    @ImageBox(2, "big-container")
+                    @ImageBox(3, "big-container")
                     break;
 
                 case 3:
-                    <div>+</div>
-                    <div>+</div>
-                    <div>+</div>
+                    @ImageBox(4, "big-container")
+                    <div class="small-wrapper">
+                        @ImageBox(5, "small-container")
+                        @ImageBox(6, "small-container")
+                    </div>
                     break;
 
                 case 4:
-                    <div>+</div>
-                    <div>+</div>
-                    <div>+</div>
-                    <div>+</div>
+                    @ImageBox(7, "big-container")
+                    <div class="small-wrapper">
+                        <div class="small-row">
+                            @ImageBox(8, "small-container")
+                            @ImageBox(9, "small-container")
+                        </div>
+                        @ImageBox(10, "bottom-container")
+                    </div>
                     break;
 
                 case 5:
-                    <div>+</div>
-                    <div>+</div>
-                    <div>+</div>
-                    <div>+</div>
-                    <div>+</div>
+                    @ImageBox(11, "big-container")
+                    <div class="small-wrapper">
+                        @ImageBox(12, "small-container")
+                        @ImageBox(13, "small-container")
+                    </div>
+                    <div class="small-wrapper">
+                        @ImageBox(14, "small-container")
+                        @ImageBox(15, "small-container")
+                    </div>
                     break;
             }
         </div>
@@ -135,4 +145,41 @@
 
 @code {
     int SelectedLayout = 1;
+
+    Dictionary<int, string?> Images = new();
+
+    private async Task OnImageSelected(InputFileChangeEventArgs e, int index)
+    {
+        var file = e.File;
+
+        using var stream = file.OpenReadStream(5000000);
+        using var ms = new MemoryStream();
+        await stream.CopyToAsync(ms);
+
+        Images[index] =
+            $"data:{file.ContentType};base64,{Convert.ToBase64String(ms.ToArray())}";
+    }
+
+    string? GetImage(int index)
+        => Images.TryGetValue(index, out var img) ? img : null;
+
+    // Erstellt eine wiederverwendbare ImageBox als RenderFragment
+    RenderFragment ImageBox(int index, string cssClass) => __builder =>
+    {
+    <label class="@cssClass upload-box">
+        @if (GetImage(index) == null)
+        {
+           <span>+</span>
+        }
+        else
+        {
+           <img src="@GetImage(index)" />
+        }
+
+        <InputFile OnChange="e => OnImageSelected(e, index)"
+                   accept="image/*"
+                   style="display:none" />
+    </label>
+        ;
+    };
 }
