@@ -43,4 +43,5 @@ So entstand die Idee, eine eigene Webseite zu erstellen. Dort kann ich meine Bil
 
 ## Quellen
 Telerik, 08.01.2026, ImagePreview: https://www.telerik.com/blazor-ui/documentation/knowledge-base/upload-preview-image
+
 Stackoverflow, 08.01.2026, RenderFragment: https://stackoverflow.com/questions/75757982/referencing-a-blazor-component-renderfragment-inline-rather-than-as-nested-child
