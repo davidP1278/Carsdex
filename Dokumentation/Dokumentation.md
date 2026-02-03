@@ -1,33 +1,43 @@
 # Carsdex
 ## Inhaltsverzeichnis
+- Warum Carsdex
 - Projektbeschreibung
-  - Wieso?
-  - Nutzen
+  - Posts erstellen
+  - Posts anzeigen
+  - Posts sortieren
+  - Account erstellen
+  - Posts liken und kommentieren
+  - Kontaktformular ausfüllen
+- Projektzustand
+  - Was gemacht ist
+  - Was noch gemacht werden muss
 - Diagramme
   - ERD (Datenbankschema)
+  - UML (Klassendiagramm)
 - Glossar
 - Quellen
 
+## Warum Carsdex
+Carsdex wird entwickelt, um meine Autofotos besser zu ordnen. Ich fotografiere gerne Autos. Diese Bilder sind momentan auf einem USB-Stick gespeichert, und es dauert oft lange, bis ich ein bestimmtes Auto, das ich einmal fotografiert habe, wiederfinde. Auf Carsdex können ich und andere interessierte Nutzer alle meine aufgenommenen Bilder ansehen. Ausserdem kann man nach Marken- und Modellnamen suchen und filtern. Zusätzlich sieht man, wann und wo die Fotos aufgenommen wurden. 
+
 ## Projektbeschreibung
-Dieses Projekt ist eine Webseite, auf der ich meine selbstgemachten Autofotos hochladen und mit Informationen wie **Marke, Modell, Ort und Datum** versehen kann.  
-Die User der Seite können sich die Beiträge auf der Startseite ansehen, gezielt nach bestimmten Autos suchen oder nach Automarken sortieren.
+### Posts erstellen
+### Posts anzeigen
+### Posts sortieren
+### Account erstellen
+### Posts liken und kommentieren
+### Kontaktformular ausfüllen
 
-### Wieso  
-Da ich meine Autofotos nicht einfach nur unsortiert auf meinem PC liegen lassen wollte, habe ich nach einer Möglichkeit gesucht, sie übersichtlich zu ordnen und zu präsentieren.
-
-So entstand die Idee, eine eigene Webseite zu erstellen. Dort kann ich meine Bilder nicht nur nach **Marke, Modell, Ort und Datum** sortieren, sondern sie auch anderen Personen zeigen, die sich für Autos interessieren.
-
-### Nutzen
-- Ich habe eine **strukturierte Sammlung** meiner Autofotos.
-- Besucher können die Bilder nach **Marke oder Modell durchsuchen**.
-- Die Seite dient als **eigene Galerie** und wächst stetig mit meinen neuen Fotos. 
+## Projektzustand
+### Was gemacht ist
+### Was noch gemacht werden muss
 
 ## Diagramme
 ### ERD (Datenbankschema)
-![ERD](Bilder/ER-Diagram.png)
+  <img src="Bilder/ER-Diagram.png" width="80%">
 
 ### UML (Klassendiagramm)
-![UML](Bilder/UML_Carsdex.png)
+  <img src="Bilder/UML_Carsdex.png" width="80%">
 
 ## Glossar
 | Begriff           | Bedeutung                                                                                                            |
