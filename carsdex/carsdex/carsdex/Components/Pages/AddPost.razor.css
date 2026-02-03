@@ -176,15 +176,15 @@ select option {
     .container {
         flex-direction: column;
         align-items: center;
-        gap: 30px;
+        gap: 20px;
     }
 
     .Img-Layout {
-        width: 100%;
+        width: 105%;
     }
 
     .data-container {
-        width: 100%;
+        width: 105%;
     }
 
     .Delet_Post {
