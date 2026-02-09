@@ -36,17 +36,57 @@ Man kann Posts suchen und nach bestimmten Kriterien filtern. Die Posts können n
 Wenn man möchte, kann man einen Account erstellen. Mit diesem Account kann man alle Posts kommentieren und liken. Ausserdem ist es möglich, Kommentare zu liken. Zusätzlich kann man über das Kontaktformular Fragen stellen und Feedback geben.
 
 ## Projektzustand
-
+Das Projekt ist momentan in einem nicht fertigen Zustand, es müssen noch einige Funktionen implementiert werden damit das Produkt fertig ist und in verwendung gebracht werden kann.
 
 ### Was gemacht ist
+
+
 ### Was noch gemacht werden muss
+- [Post](https://github.com/davidP1278/Carsdex/issues/50)
+  - [Post posten](https://github.com/davidP1278/Carsdex/issues/51)
+    - [POST methode](https://github.com/davidP1278/Carsdex/issues/15)
+    - [Daten des Posts in Datenbank speichern](https://github.com/davidP1278/Carsdex/issues/52)
+    - [Bilder speichern und URL in Datenbank speichern](https://github.com/davidP1278/Carsdex/issues/53)
+  - [Daten in Post eintragen](https://github.com/davidP1278/Carsdex/issues/54)
+    - [Design der Post Seite](https://github.com/davidP1278/Carsdex/issues/57)
+  - [Post bearbeiten](https://github.com/davidP1278/Carsdex/issues/58)
+    - [UPDATE Methode](https://github.com/davidP1278/Carsdex/issues/59)
+  - [Post löschen](https://github.com/davidP1278/Carsdex/issues/60)
+    - [DELETE Methode](https://github.com/davidP1278/Carsdex/issues/61)
+  - [Post anzeigen](https://github.com/davidP1278/Carsdex/issues/62)
+    - [GET Methode für Post](https://github.com/davidP1278/Carsdex/issues/16)
+    - [Von Neu -> Alt sortieren (Ohne Filter)](https://github.com/davidP1278/Carsdex/issues/63)
+    - [Infinity scroll auf der Hauptseite](https://github.com/davidP1278/Carsdex/issues/23)
+    - [Post liken und kommentieren](https://github.com/davidP1278/Carsdex/issues/24)
+      - [Like und Kommentare Datenbank](https://github.com/davidP1278/Carsdex/issues/65)
+    - [Bildergalerie](https://github.com/davidP1278/Carsdex/issues/22)
+    - [Design der Hauptseite](https://github.com/davidP1278/Carsdex/issues/66)
+      - [Mobile Design](https://github.com/davidP1278/Carsdex/issues/67)
+    - [Posts Suchen/Filter](https://github.com/davidP1278/Carsdex/issues/68)
+      - [Such funktion nach Markenname (fuzzy search)](https://github.com/davidP1278/Carsdex/issues/19)
+      - [Modelname suchen/sortieren (fuzzy search)](https://github.com/davidP1278/Carsdex/issues/69)
+      - [Posts von a -> z sortieren (mit Filter)](https://github.com/davidP1278/Carsdex/issues/70)
+  - [Sidebar auf der Mainpage](https://github.com/davidP1278/Carsdex/issues/71)
+    - [GET Methode für Modelnamen](https://github.com/davidP1278/Carsdex/issues/73)
+    - [Burger Menu im Mobile Desgin](https://github.com/davidP1278/Carsdex/issues/74)
+- [Login & Rollen](https://github.com/davidP1278/Carsdex/issues/43)
+  - [Admin Rolle](https://github.com/davidP1278/Carsdex/issues/25)
+    - [Berechtigungen der Admin Rolle](https://github.com/davidP1278/Carsdex/issues/45)
+  - [Normaler User Rolle](https://github.com/davidP1278/Carsdex/issues/26)
+  - [Button für die Login Seite](https://github.com/davidP1278/Carsdex/issues/44)
+    - [Login Seite](https://github.com/davidP1278/Carsdex/issues/46)
+      - [Die erfassten User in die Datenbank speichern](https://github.com/davidP1278/Carsdex/issues/49)
+- [Kontakt Seite](https://github.com/davidP1278/Carsdex/issues/75)
+  - [Kontakt Feld designen](https://github.com/davidP1278/Carsdex/issues/32)
+    - [Mobile Design für das Kontaktfeld](https://github.com/davidP1278/Carsdex/issues/76)
+  - [Funktion zum absenden des Kontaktformulars](https://github.com/davidP1278/Carsdex/issues/77)
 
 ## Diagramme
 ### ERD (Datenbankschema)
-  <img src="Bilder/ER-Diagram.png" width="80%">
+<img src="Bilder/ER-Diagram.png" width="80%">
 
 ### UML (Klassendiagramm)
-  <img src="Bilder/UML_Carsdex.png" width="80%">
+<img src="Bilder/UML_Carsdex.png" width="80%">
 
 ## Glossar
 | Begriff           | Bedeutung                                                                                                            |
