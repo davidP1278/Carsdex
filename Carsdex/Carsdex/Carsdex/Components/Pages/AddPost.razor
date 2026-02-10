@@ -144,10 +144,12 @@
 </div>
 
 @code {
+    // Aktuell ausgewähltes Layout
     int SelectedLayout = 1;
 
     Dictionary<int, string?> Images = new();
 
+    // Liest ein ausgewähltes Bild ein, konvertiert es in Base64 und speichert es indexbasiert zur späteren Anzeige im UI.
     private async Task OnImageSelected(InputFileChangeEventArgs e, int index)
     {
         var file = e.File;
