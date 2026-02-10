@@ -1,21 +1,22 @@
 # Carsdex
 ## Inhaltsverzeichnis
-- Warum Carsdex
-- Projektbeschreibung
-  - Posts erstellen
-  - Posts anzeigen
-  - Posts sortieren
-  - Account erstellen
-  - Posts liken und kommentieren
-  - Kontaktformular ausfüllen
-- Projektzustand
-  - Was gemacht ist
-  - Was noch gemacht werden muss
-- Diagramme
-  - ERD (Datenbankschema)
-  - UML (Klassendiagramm)
-- Glossar
-- Quellen
+- [Carsdex](#carsdex)
+  - [Inhaltsverzeichnis](#inhaltsverzeichnis)
+  - [Warum Carsdex](#warum-carsdex)
+  - [Projektbeschreibung](#projektbeschreibung)
+    - [Posts erstellen](#posts-erstellen)
+    - [Posts anzeigen](#posts-anzeigen)
+    - [Posts sortieren](#posts-sortieren)
+    - [Account funktionen](#account-funktionen)
+  - [Projektzustand](#projektzustand)
+    - [Was gemacht ist](#was-gemacht-ist)
+    - [Was noch gemacht werden muss](#was-noch-gemacht-werden-muss)
+  - [Diagramme](#diagramme)
+    - [ERD (Datenbankschema)](#erd-datenbankschema)
+    - [UML (Klassendiagramm)](#uml-klassendiagramm)
+  - [Glossar](#glossar)
+  - [Quellen](#quellen)
+
 
 ## Warum Carsdex
 Carsdex wird entwickelt, um meine Autofotos besser zu ordnen. Ich fotografiere gerne Autos. Diese Bilder sind momentan auf einem USB-Stick gespeichert, und es dauert oft lange, bis ich ein bestimmtes Auto, das ich einmal fotografiert habe, wiederfinde. Auf Carsdex können ich und andere interessierte Nutzer alle meine aufgenommenen Bilder ansehen. Ausserdem kann man nach Marken- und Modellnamen suchen und filtern. Zusätzlich sieht man, wann und wo die Fotos aufgenommen wurden.
@@ -36,12 +37,26 @@ Man kann Posts suchen und nach bestimmten Kriterien filtern. Die Posts können n
 Wenn man möchte, kann man einen Account erstellen. Mit diesem Account kann man alle Posts kommentieren und liken. Ausserdem ist es möglich, Kommentare zu liken. Zusätzlich kann man über das Kontaktformular Fragen stellen und Feedback geben.
 
 ## Projektzustand
-Das Projekt ist momentan in einem nicht fertigen Zustand, es müssen noch einige Funktionen implementiert werden damit das Produkt fertig ist und in verwendung gebracht werden kann.
+Das Projekt befindet sich momentan noch in einem unfertigen Zustand. Es müssen noch einige Funktionen implementiert werden, damit das Produkt fertiggestellt und in Verwendung gebracht werden kann.
 
 ### Was gemacht ist
+Die Hauptseite ist grösstenteils fertiggestellt. HTML und CSS sind umgesetzt, es fehlt lediglich noch das Design der einzelnen Posts.
+Die gesamte Post-Seite ist ebenfalls bereits fertig, jedoch muss die Upload-Funktion noch implementiert werden.
 
-
+Die folgenden Punkte wurden bereits umgesetzt und über GitHub-Issues dokumentiert:
+- [Bilder hochladen](https://github.com/davidP1278/Carsdex/issues/55)
+  - [Bilder anzeigen](https://github.com/davidP1278/Carsdex/issues/56)
+- [Searchbar Responsive machen](https://github.com/davidP1278/Carsdex/issues/72)
+- [Planung/Dokumentation](https://github.com/davidP1278/Carsdex/issues/78)
+  - [Diagramme](https://github.com/davidP1278/Carsdex/issues/79)
+    - [Klassen Daigramm (UML) erstellen](https://github.com/davidP1278/Carsdex/issues/80)
+    - [Datenbankschema überarbeiten](https://github.com/davidP1278/Carsdex/issues/40)
+    - [Datenbank Diagramm überarbeiten](https://github.com/davidP1278/Carsdex/issues/82)
+  - [Dokumentation](https://github.com/davidP1278/Carsdex/issues/81)
+    - [In der Dokumentation eine kurze Beschreibung des Projektes machen](https://github.com/davidP1278/Carsdex/issues/34)
+    - [Technologie in der Dokumentation beschreiben](https://github.com/davidP1278/Carsdex/issues/36)
 ### Was noch gemacht werden muss
+Die folgenden Punkte sind noch offen und wurden als GitHub-Issues erfasst:
 - [Post](https://github.com/davidP1278/Carsdex/issues/50)
   - [Post posten](https://github.com/davidP1278/Carsdex/issues/51)
     - [POST methode](https://github.com/davidP1278/Carsdex/issues/15)
