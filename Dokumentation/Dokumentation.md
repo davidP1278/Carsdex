@@ -13,10 +13,7 @@
     - [Was noch gemacht werden muss](#was-noch-gemacht-werden-muss)
   - [Diagramme](#diagramme)
     - [ERD (Datenbankschema)](#erd-datenbankschema)
-    - [UML (Klassendiagramm)](#uml-klassendiagramm)
   - [Glossar](#glossar)
-  - [Quellen](#quellen)
-
 
 ## Warum Carsdex
 Carsdex wird entwickelt, um meine Autofotos besser zu ordnen. Ich fotografiere gerne Autos. Diese Bilder sind momentan auf einem USB-Stick gespeichert, und es dauert oft lange, bis ich ein bestimmtes Auto, das ich einmal fotografiert habe, wiederfinde. Auf Carsdex können ich und andere interessierte Nutzer alle meine aufgenommenen Bilder ansehen. Ausserdem kann man nach Marken- und Modellnamen suchen und filtern. Zusätzlich sieht man, wann und wo die Fotos aufgenommen wurden.
@@ -99,9 +96,6 @@ Die folgenden Punkte sind noch offen und wurden als GitHub-Issues erfasst:
 ### ERD (Datenbankschema)
 <img src="Bilder/ER-Diagram.png" width="80%">
 
-### UML (Klassendiagramm)
-<img src="Bilder/UML_Carsdex.png" width="80%">
-
 ## Glossar
 | Begriff           | Bedeutung                                                                                                            |
 | ----------------- | -------------------------------------------------------------------------------------------------------------------- |
@@ -113,8 +107,3 @@ Die folgenden Punkte sind noch offen und wurden als GitHub-Issues erfasst:
 | Modellname        | Der Modellname eines Autos (Bsp. 911 GT 3RS)                                                                         |
 | Bildergalerie     | Eine Funktion, um Bilder eines Fahrzeugs in grösserer Darstellung anzuschauen.                                       |
 | Startseite        | Die erste Seite, die beim Öffnen der Webseite angezeigt wird. Sie zeigt alle Beiträge an, sortiert von neu nach alt. |
-
-## Quellen
-Telerik, 08.01.2026, ImagePreview: https://www.telerik.com/blazor-ui/documentation/knowledge-base/upload-preview-image
-
-Stackoverflow, 08.01.2026, RenderFragment: https://stackoverflow.com/questions/75757982/referencing-a-blazor-component-renderfragment-inline-rather-than-as-nested-child
