@@ -1,18 +1,16 @@
 # Carsdex
 ## Inhaltsverzeichnis
-- [Carsdex](#carsdex)
-  - [Inhaltsverzeichnis](#inhaltsverzeichnis)
-  - [Projektbeschreibung](#projektbeschreibung)
-  - [Warum Carsdex](#warum-carsdex)
-  - [Funktionen](#funktionen)
-    - [Posts erstellen](#posts-erstellen)
-    - [Posts anzeigen](#posts-anzeigen)
-    - [Posts sortieren](#posts-sortieren)
-    - [Account funktionen](#account-funktionen)
-  - [ToDo](#todo)
-  - [Dokus](#dokus)
-  - [Glossar](#glossar)
-  - [Quellen](#quellen)
+- [Projektbeschreibung](#projektbeschreibung)
+- [Warum Carsdex](#warum-carsdex)
+- [Funktionen](#funktionen)
+  - [Posts erstellen](#posts-erstellen)
+  - [Posts anzeigen](#posts-anzeigen)
+  - [Posts sortieren](#posts-sortieren)
+  - [Account funktionen](#account-funktionen)
+- [ToDo](#todo)
+- [Dokus](#dokus)
+- [Glossar](#glossar)
+- [Quellen](#quellen)
 
 ## Projektbeschreibung
 Carsdex ist eine Blazor-Webanwendung zur Verwaltung und Anzeige von Autofotos.
