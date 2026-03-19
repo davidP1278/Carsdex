@@ -1,16 +1,18 @@
 # Carsdex
 ## Inhaltsverzeichnis
-- [Projektbeschreibung](#projektbeschreibung)
-- [Warum Carsdex](#warum-carsdex)
-- [Funktionen](#funktionen)
+- [Carsdex](#carsdex)
+  - [Inhaltsverzeichnis](#inhaltsverzeichnis)
+  - [Projektbeschreibung](#projektbeschreibung)
+  - [Warum Carsdex](#warum-carsdex)
+  - [Funktionen](#funktionen)
     - [Posts erstellen](#posts-erstellen)
     - [Posts anzeigen](#posts-anzeigen)
     - [Posts sortieren](#posts-sortieren)
     - [Account funktionen](#account-funktionen)
-- [ToDO](#todo)
-- [Dokus](#dokus)
-- [Glossar](#glossar)
-- [Quellen](#quellen)
+  - [ToDo](#todo)
+  - [Dokus](#dokus)
+  - [Glossar](#glossar)
+  - [Quellen](#quellen)
 
 ## Projektbeschreibung
 Carsdex ist eine Blazor-Webanwendung zur Verwaltung und Anzeige von Autofotos.
@@ -41,8 +43,8 @@ Die folgenden Punkte sind noch offen und wurden als GitHub-Issues erfasst:
 - [Fuzzy Search](https://github.com/davidP1278/Carsdex/issues?q=is%3Aissue%20state%3Aopen%20in%3Atitle%20Fuzzy)
 
 ## Dokus
-- [Dokumentation](Dokumentation/Dokumentation.md)
-- [Datenbank Dokumentation](Dokumentation/Datenbank_Dokumentation.md)
+- [Technische-Doku](Dokumentation/Technische-Doku.md)
+- [Betriebshandbuch](Dokumentation/Betriebshandbuch.md)
 - [Design](Planung/Design/mockups_figma.md)
   
 ## Glossar
