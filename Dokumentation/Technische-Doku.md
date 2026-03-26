@@ -2,12 +2,22 @@
 ## Inhaltsverzeichnis
 - [Systemarchitektur](#systemarchitektur)
 - [Datenmodelle](#datenmodelle)
-- [Verwendete Technologien](#verwendete-technologien)
-- [Entscheidungen](#entscheidungen)
-- [Designentscheidungen](#designentscheidungen)
+- [Frontend](#frontend)
+- [Erweiterungen](#erweiterungen)
+- [Technologien](#technologien)
+- [ToDo](#toDo)
+- [Bilderverzeichnis](#bilderverzeichnis)
+- [Tabellenverzeichnis](#tabellenverzeichnis)
+- [Glossar](#glossar)
+- [Quellen](#quellen)
 
 ## Systemarchitektur
 ## Datenmodelle
-## Verwendete Technologien
-## Entscheidungen
-## Designentscheidungen
+## Frontend
+## Erweiterungen
+## Technologien
+## ToDo
+## Bilderverzeichnis
+## Tabellenverzeichnis
+## Glossar
+## Quellen
