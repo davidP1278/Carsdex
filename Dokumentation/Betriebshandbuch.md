@@ -4,6 +4,13 @@
 - [Infrastruktur](#infrastruktur)
 - [Installation und Einrichtung](#installation-und-einrichtung)
 
-## Systemübersicht
-## Infrastruktur
+## Umgebung
+### Abhängigkeiten
+### Datenbank
+### Ordnerstruktur
 ## Installation und Einrichtung
+## Bedienung
+## Bilderverzeichnis
+## Tabellenverzeichnis
+## Glossar
+## Quellen
