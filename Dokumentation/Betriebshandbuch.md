@@ -1,8 +1,15 @@
 # Betriebshandbuch
 ## Inhaltsverzeichnis
-- [Systemübersicht](#systemübersicht)
-- [Infrastruktur](#infrastruktur)
-- [Installation und Einrichtung](#installation-und-einrichtung)
+- [Umgebung](#umgebung)
+  - [Abhängigkeiten](#abhängigkeiten)
+  - [Datenbank](#datenbank)
+  - [Ordnerstruktur](#ordnerstruktur)
+- [Installation-und-Einrichtung](#installation-und-einrichtung)
+- [Bedienung](#bedienung)
+- [Bilderverzeichnis](#bilderverzeichnis)
+- [Tabellenverzeichnis](#tabellenverzeichnis)
+- [Glossar](#glossar)
+- [Quellen](#quellen)
 
 ## Umgebung
 ### Abhängigkeiten
