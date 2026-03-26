@@ -42,7 +42,7 @@ Wenn man möchte, kann man einen Account erstellen. Mit diesem Account kann man 
 
 ## Bilderverzeichnis
 
-##Tabellenverzeichnis
+## Tabellenverzeichnis
 
 ## Glossar
 | Begriff           | Bedeutung                                                                                                            |
