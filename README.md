@@ -19,6 +19,8 @@ Das Projekt ermöglicht es, Fahrzeugbilder zu posten, zu durchsuchen und nach ve
 ## Warum Carsdex
 Carsdex wird entwickelt, um meine Autofotos besser zu ordnen. Ich fotografiere gerne Autos. Diese Bilder sind momentan auf einem USB-Stick gespeichert, und es dauert oft lange, bis ich ein bestimmtes Auto, das ich einmal fotografiert habe, wiederfinde. Auf Carsdex können ich und andere interessierte Nutzer alle meine aufgenommenen Bilder ansehen. Ausserdem kann man nach Marken- und Modellnamen suchen und filtern. Zusätzlich sieht man, wann und wo die Fotos aufgenommen wurden.
 
+## Vision
+
 ## Funktionen
 ### Posts erstellen
 Man kann verschiedene Posts von Autos erstellen und diese veröffentlichen. Dafür geht man auf der Hauptseite auf das Plus-Symbol unten links. Auf der Seite zum Erstellen eines Posts kann man eines von fünf verschiedenen Layouts auswählen und die Bilder in beliebiger Reihenfolge hinzufügen. Danach gibt man den Modell- und Markennamen, den Ort und das Datum an. Optional kann man weitere Bilder hinzufügen, die nicht direkt im Post sichtbar sind, sondern erst angezeigt werden, wenn man auf ein Bild klickt und die Bildergalerie öffnet.
@@ -29,22 +31,19 @@ Man kann Posts suchen und nach bestimmten Kriterien filtern. Die Posts können n
 ### Account funktionen
 Wenn man möchte, kann man einen Account erstellen. Mit diesem Account kann man alle Posts kommentieren und liken. Ausserdem ist es möglich, Kommentare zu liken. Zusätzlich kann man über das Kontaktformular Fragen stellen und Feedback geben.
 
-## ToDo
-Die folgenden Punkte sind noch offen und wurden als GitHub-Issues erfasst:
-- [Post](https://github.com/davidP1278/Carsdex/issues?q=is%3Aissue%20state%3Aopen%20in%3Atitle%20Post)
-- [Kontakt-Seite](https://github.com/davidP1278/Carsdex/issues?q=is%3Aissue%20state%3Aopen%20in%3Atitle%20Kontakt)
-- [Haupt-Seite](https://github.com/davidP1278/Carsdex/issues?q=is%3Aissue%20state%3Aopen%20in%3Atitle%20Hauptseite)
-- [Login-Seite](https://github.com/davidP1278/Carsdex/issues?q=is%3Aissue%20state%3Aopen%20in%3Atitle%20Login)
-  - [Rollen](https://github.com/davidP1278/Carsdex/issues?q=is%3Aissue%20state%3Aopen%20in%3Atitle%20Rolle)
-- [Datenbank](https://github.com/davidP1278/Carsdex/issues?q=is%3Aissue%20state%3Aopen%20in%3Atitle%20Datenbank)
-- [Design](https://github.com/davidP1278/Carsdex/issues?q=is%3Aissue%20state%3Aopen%20in%3Atitle%20Design)
-- [Fuzzy Search](https://github.com/davidP1278/Carsdex/issues?q=is%3Aissue%20state%3Aopen%20in%3Atitle%20Fuzzy)
-
-## Dokus
+## Links
+### Dokus
 - [Technische-Doku](Dokumentation/Technische-Doku.md)
 - [Betriebshandbuch](Dokumentation/Betriebshandbuch.md)
 - [Design](Planung/Design/mockups_figma.md)
-  
+
+### Issues
+- [Issues](https://github.com/davidP1278/Carsdex/issues)
+
+## Bilderverzeichnis
+
+##Tabellenverzeichnis
+
 ## Glossar
 | Begriff           | Bedeutung                                                                                                            |
 | ----------------- | -------------------------------------------------------------------------------------------------------------------- |
