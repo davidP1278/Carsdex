@@ -8,9 +8,7 @@
   - [Posts anzeigen](#posts-anzeigen)
   - [Posts sortieren](#posts-sortieren)
   - [Account funktionen](#account-funktionen)
-- [Links](#links)
-  - [Dokus](#dokus)
-  - [Issues](#issues)
+- [Weitere Dokus](#weitere-dokus)
 - [Bilderverzeichnis](#bilderverzeichnis)
 - [Tabellenverzeichnis](#tabellenverzeichnis)
 - [Glossar](#glossar)
@@ -35,14 +33,10 @@ Man kann Posts suchen und nach bestimmten Kriterien filtern. Die Posts können n
 ### Account funktionen
 Wenn man möchte, kann man einen Account erstellen. Mit diesem Account kann man alle Posts kommentieren und liken. Ausserdem ist es möglich, Kommentare zu liken. Zusätzlich kann man über das Kontaktformular Fragen stellen und Feedback geben.
 
-## Links
-### Dokus
+## Weitere Dokus
 - [Technische-Doku](Dokumentation/Technische-Doku.md)
 - [Betriebshandbuch](Dokumentation/Betriebshandbuch.md)
 - [Design](Planung/Design/mockups_figma.md)
-
-### Issues
-- [Issues](https://github.com/davidP1278/Carsdex/issues)
 
 ## Bilderverzeichnis
 
