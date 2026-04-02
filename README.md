@@ -3,13 +3,14 @@
 - [Carsdex](#carsdex)
   - [Inhaltsverzeichnis](#inhaltsverzeichnis)
   - [Projektbeschreibung](#projektbeschreibung)
-  - [Warum Carsdex](#warum-carsdex)
+  - [Ausgangslage](#ausgangslage)
   - [Vision](#vision)
   - [Funktionen](#funktionen)
     - [Posts erstellen](#posts-erstellen)
     - [Posts anzeigen](#posts-anzeigen)
     - [Posts sortieren](#posts-sortieren)
     - [Account funktionen](#account-funktionen)
+  - [Kontakt](#kontakt)
   - [Weitere Dokus](#weitere-dokus)
   - [Bilderverzeichnis](#bilderverzeichnis)
   - [Tabellenverzeichnis](#tabellenverzeichnis)
@@ -20,7 +21,7 @@
 Carsdex ist eine Blazor-Webanwendung zur Verwaltung und Anzeige von Autofotos.
 Das Projekt ermöglicht es, Fahrzeugbilder zu posten, zu durchsuchen und nach verschiedenen Kriterien wie Marken- und Modellnamen zu filtern. Zusätzlich werden Informationen wie Ort und Datum der Aufnahme angezeigt.
 
-## Warum Carsdex
+## Ausgangslage
 Carsdex wird entwickelt, um meine Autofotos besser zu ordnen. Ich fotografiere gerne Autos. Diese Bilder sind momentan auf einem USB-Stick gespeichert, und es dauert oft lange, bis ich ein bestimmtes Auto, das ich einmal fotografiert habe, wiederfinde. Auf Carsdex können ich und andere interessierte Nutzer alle meine aufgenommenen Bilder ansehen. Ausserdem kann man nach Marken- und Modellnamen suchen und filtern. Zusätzlich sieht man, wann und wo die Fotos aufgenommen wurden.
 
 ## Vision
@@ -35,10 +36,11 @@ Man kann Posts suchen und nach bestimmten Kriterien filtern. Die Posts können n
 ### Account funktionen
 Wenn man möchte, kann man einen Account erstellen. Mit diesem Account kann man alle Posts kommentieren und liken. Ausserdem ist es möglich, Kommentare zu liken. Zusätzlich kann man über das Kontaktformular Fragen stellen und Feedback geben.
 
+## Kontakt
+
 ## Weitere Dokus
 - [Technische-Doku](Dokumentation/Technische-Doku.md)
 - [Betriebshandbuch](Dokumentation/Betriebshandbuch.md)
-- [Design](Planung/Design/mockups_figma.md)
 
 ## Bilderverzeichnis
 
