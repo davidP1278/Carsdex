@@ -12,10 +12,7 @@
     - [Account funktionen](#account-funktionen)
   - [Kontakt](#kontakt)
   - [Weitere Dokus](#weitere-dokus)
-  - [Bilderverzeichnis](#bilderverzeichnis)
-  - [Tabellenverzeichnis](#tabellenverzeichnis)
   - [Glossar](#glossar)
-  - [Quellen](#quellen)
 
 ## Projektbeschreibung
 Carsdex ist eine Blazor-Webanwendung zur Verwaltung und Anzeige von Autofotos.
@@ -25,6 +22,7 @@ Das Projekt ermöglicht es, Fahrzeugbilder zu posten, zu durchsuchen und nach ve
 Carsdex wird entwickelt, um meine Autofotos besser zu ordnen. Ich fotografiere gerne Autos. Diese Bilder sind momentan auf einem USB-Stick gespeichert, und es dauert oft lange, bis ich ein bestimmtes Auto, das ich einmal fotografiert habe, wiederfinde. Auf Carsdex können ich und andere interessierte Nutzer alle meine aufgenommenen Bilder ansehen. Ausserdem kann man nach Marken- und Modellnamen suchen und filtern. Zusätzlich sieht man, wann und wo die Fotos aufgenommen wurden.
 
 ## Vision
+Am Ende soll es möglich sein, eigene Autofotos in das Produkt hochzuladen. Dabei sollen Datum und Ort automatisch aus den Bilddaten ausgelesen werden, sodass lediglich Marken- und Modellname manuell angegeben werden müssen. Zusätzlich sollen die Bilder nach verschiedenen Kriterien filter und durchsuchbar sein. Eine übersichtliche Navigation auf der linken Seite soll den schnellen Zugriff auf die Inhalte erleichtern.
 
 ## Funktionen
 ### Posts erstellen
@@ -37,14 +35,11 @@ Man kann Posts suchen und nach bestimmten Kriterien filtern. Die Posts können n
 Wenn man möchte, kann man einen Account erstellen. Mit diesem Account kann man alle Posts kommentieren und liken. Ausserdem ist es möglich, Kommentare zu liken. Zusätzlich kann man über das Kontaktformular Fragen stellen und Feedback geben.
 
 ## Kontakt
+E-Mail: david.provenzano@edu.gbssg.ch
 
 ## Weitere Dokus
 - [Technische-Doku](Dokumentation/Technische-Doku.md)
 - [Betriebshandbuch](Dokumentation/Betriebshandbuch.md)
-
-## Bilderverzeichnis
-
-## Tabellenverzeichnis
 
 ## Glossar
 | Begriff           | Bedeutung                                                                                                            |
@@ -57,5 +52,3 @@ Wenn man möchte, kann man einen Account erstellen. Mit diesem Account kann man 
 | Modellname        | Der Modellname eines Autos (Bsp. 911 GT 3RS)                                                                         |
 | Bildergalerie     | Eine Funktion, um Bilder eines Fahrzeugs in grösserer Darstellung anzuschauen.                                       |
 | Startseite        | Die erste Seite, die beim Öffnen der Webseite angezeigt wird. Sie zeigt alle Beiträge an, sortiert von neu nach alt. |
-
-## Quellen
