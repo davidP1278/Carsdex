@@ -9,6 +9,17 @@
       - [Beziehungen zwischen den Tabellen](#beziehungen-zwischen-den-tabellen)
     - [Ordnerstruktur](#ordnerstruktur)
   - [Bedienung](#bedienung)
+    - [Startseite](#startseite)
+      - [Sidebar](#sidebar)
+      - [Suchleiste \& Filter](#suchleiste--filter)
+      - [Bildergalerie](#bildergalerie)
+      - [Bearbeitungs Button](#bearbeitungs-button)
+      - [Add-Post Button](#add-post-button)
+      - [Link zum Kontaktfeld](#link-zum-kontaktfeld)
+      - [Login](#login)
+    - [Add Post](#add-post)
+    - [Kontaktfeld](#kontaktfeld)
+    - [Login/Regestrierung](#loginregestrierung)
   - [Bilderverzeichnis](#bilderverzeichnis)
   - [Tabellenverzeichnis](#tabellenverzeichnis)
   - [Glossar](#glossar)
@@ -83,22 +94,49 @@ Hier ist das Datenbankschema, das das Ganze visuell darstellt.
 ```
 Carsdex/  
 ├── carsdex/  
-│   ├── Components/   
+│   ├── Components/
 │   │   ├── Account/  
 │   │   │   ├── Pages/    
 │   │   │   │   └── Manage/   
 │   │   │   └── Shared/   
 │   │   ├── Layout/   
-│   │   └── Pages/    
-│   ├── Data/   
-│   │   └── Migrations/   
+│   │   └── Pages/   
+│   └── Data/   
+│       └── Migrations/   
 ├── Dokumentation/  
 │   └── Bilder/   
 └── Planung/  
-    ├── Datenbank/  
-    └── Design/  
+    ├── Datenbank/
+    │   └── Hier befindet sich das ERD-Diagramm
+    └── Design/ 
+        └── Hier sind die Mockups von Carsdex 
 ```
+
 ## Bedienung
+Die Benutzeroberfläche ist in den folgenden Mockups dargestellt:[mockup](../Planung/Design/mockups_figma.md)
+
+### Startseite
+#### Sidebar
+In der Sidebar werden immer die ersten vier Modellnamen angezeigt. Durch Anklicken eines Modells wird automatisch zum entsprechenden Beitrag navigiert.
+
+#### Suchleiste & Filter
+In der Suchleiste kann nach bestimmten Marken- und Modellnamen gesucht werden. Zusätzlich lassen sich die Posts nach **Markenname**, **Modellname** und **Ort** filtern.
+
+#### Bildergalerie
+Ein Post kann maximal fünf Bilder anzeigen. Wenn man jedoch auf ein Bild klickt, öffnet sich eine Bildergalerie, in der alle hochgeladenen Bilder des Posts angezeigt werden. Diese Funktion steht nur bei Posts zur Verfügung, die mehr als fünf Bilder enthalten. In der Bildergalerie kann man mit den Pfeiltasten nach links und rechts navigieren, mit der esc Taste verlässt man die Bildergalerie wieder.
+
+#### Bearbeitungs Button
+Durch Klicken auf den Button kann man den Post bearbeiten oder löschen. Ausserdem lassen sich die Kommentare des Posts ebenfalls bearbeiten oder löschen. Wenn man fertig ist, kann man auf den „Speichern“-Button klicken, wodurch alle Änderungen übernommen werden.
+
+#### Add-Post Button
+Durch Klicken auf den Button gelangt man auf die Add-Post Seite, dort kann man einenn Post erstellen.
+
+#### Link zum Kontaktfeld
+#### Login
+### Add Post
+### Kontaktfeld
+### Login/Regestrierung
+
 ## Bilderverzeichnis
 ## Tabellenverzeichnis
 ## Glossar
