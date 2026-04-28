@@ -14,16 +14,8 @@
       - [Suchleiste \& Filter](#suchleiste--filter)
       - [Bildergalerie](#bildergalerie)
       - [Bearbeitungs Button](#bearbeitungs-button)
-      - [Add-Post Button](#add-post-button)
-      - [Link zum Kontaktfeld](#link-zum-kontaktfeld)
-      - [Login](#login)
     - [Add Post](#add-post)
-    - [Kontaktfeld](#kontaktfeld)
-    - [Login/Regestrierung](#loginregestrierung)
-  - [Bilderverzeichnis](#bilderverzeichnis)
-  - [Tabellenverzeichnis](#tabellenverzeichnis)
   - [Glossar](#glossar)
-  - [Quellen](#quellen)
 
 ## Umgebung
 ### Datenbank
@@ -80,9 +72,9 @@ Hier ist das Datenbankschema, das das Ganze visuell darstellt.
 | aspnetusers + post | like | 1 : 1     | Ein User kann einen Post nur einmal liken |
 
 **aspnetusers <-> comment**
-| Von         | Zu      | Beziehung | Beschreibung                                             |
-| ----------- | ------- | --------- | -------------------------------------------------------- |
-| aspnetusers | comment | 1 : n     | Ein User kann mehrere Kommentare schreiben               |
+| Von         | Zu      | Beziehung | Beschreibung                               |
+| ----------- | ------- | --------- | ------------------------------------------ |
+| aspnetusers | comment | 1 : n     | Ein User kann mehrere Kommentare schreiben |
 
 **aspnetusers <-> contact**
 | Von         | Zu          | Beziehung | Beschreibung                                 |
@@ -113,7 +105,7 @@ Carsdex/
 ```
 
 ## Bedienung
-Die Benutzeroberfläche ist in den folgenden Mockups dargestellt:[mockup](../Planung/Design/mockups_figma.md)
+Die Benutzeroberfläche ist in den folgenden Mockups dargestellt:[Mockup](../Planung/Design/mockups_figma.md)
 
 ### Startseite
 #### Sidebar
@@ -128,16 +120,16 @@ Ein Post kann maximal fünf Bilder anzeigen. Wenn man jedoch auf ein Bild klickt
 #### Bearbeitungs Button
 Durch Klicken auf den Button kann man den Post bearbeiten oder löschen. Ausserdem lassen sich die Kommentare des Posts ebenfalls bearbeiten oder löschen. Wenn man fertig ist, kann man auf den „Speichern“-Button klicken, wodurch alle Änderungen übernommen werden.
 
-#### Add-Post Button
-Durch Klicken auf den Button gelangt man auf die Add-Post Seite, dort kann man einenn Post erstellen.
-
-#### Link zum Kontaktfeld
-#### Login
 ### Add Post
-### Kontaktfeld
-### Login/Regestrierung
+Wenn man auf der AddPost-Seite ist (man gelangt durch Klicken auf den Plus-Button auf der Startseite auf diese Seite), kann man eines von fünf Layouts auswählen, in die man Bilder einfügen und frei anordnen kann. Zudem können alle Daten in die Felder auf der rechten Seite eingetragen werden, und bei Bedarf lassen sich weitere Bilder hinzufügen. Wenn man fertig ist, kann man den Post hochladen oder ihn, falls man sich umentscheidet, einfach löschen.
 
-## Bilderverzeichnis
-## Tabellenverzeichnis
 ## Glossar
-## Quellen
+| Begriff          | Erklärung                                                                                                            |
+| ---------------- | -------------------------------------------------------------------------------------------------------------------- |
+| Post             | Ein Beitrag der Daten zum Auto enthält und die dazu gehörigen Bilder.                                                |
+| Sidebar          | Seitliche Navigation, in der die ersten vier Modellnamen angezeigt werden.                                           |
+| Bildergalerie    | Ansicht, in der alle Bilder eines Posts angezeigt und durchgeblättert werden können.                                 |
+| AddPost Seite    | Seite zum Erstellen eines neuen Posts mit Bildern und Daten.                                                         |
+| Startseite       | Die erste Seite, die beim Öffnen der Webseite angezeigt wird. Sie zeigt alle Beiträge an, sortiert von neu nach alt. |
+| ASP.NET Identity | System zur Verwaltung von Benutzerkonten und Authentifizierung.                                                      |
+| ER-Diagramm      | Grafische Darstellung der Datenbankstruktur und ihrer Beziehungen.                                                   |
