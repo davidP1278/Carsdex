@@ -26,9 +26,9 @@ Am Ende soll es möglich sein, eigene Autofotos in das Produkt hochzuladen. Dabe
 
 ## Funktionen
 ### Posts erstellen
-Man kann verschiedene Posts von Autos erstellen und diese veröffentlichen. Dafür geht man auf der Hauptseite auf das Plus-Symbol unten links. Auf der Seite zum Erstellen eines Posts kann man eines von fünf verschiedenen Layouts auswählen und die Bilder in beliebiger Reihenfolge hinzufügen. Danach gibt man den Modell- und Markennamen, den Ort und das Datum an. Optional kann man weitere Bilder hinzufügen, die nicht direkt im Post sichtbar sind, sondern erst angezeigt werden, wenn man auf ein Bild klickt und die Bildergalerie öffnet.
+Man kann verschiedene Posts von Autos erstellen und diese veröffentlichen. Dafür geht man auf der Startseite auf das Plus-Symbol unten links. Auf der Seite zum Erstellen eines Posts kann man eines von fünf verschiedenen Layouts auswählen und die Bilder in beliebiger Reihenfolge hinzufügen. Danach gibt man den Modell- und Markennamen, den Ort und das Datum an. Optional kann man weitere Bilder hinzufügen, die nicht direkt im Post sichtbar sind, sondern erst angezeigt werden, wenn man auf ein Bild klickt und die Bildergalerie öffnet.
 ### Posts anzeigen
-Alle Posts werden auf der Hauptseite angezeigt, wobei der neuste Post zuoberst steht. Wenn man sich die Bilder genauer anschauen möchte, kann man direkt auf ein Bild klicken. Danach werden alle Bilder in einer Galerie angezeigt. Links werden ausserdem alle Modellnamen der nächsten Posts angezeigt, und rechts sieht man die Likes und Kommentare.
+Alle Posts werden auf der Startseite angezeigt, wobei der neuste Post zuoberst steht. Wenn man sich die Bilder genauer anschauen möchte, kann man direkt auf ein Bild klicken. Danach werden alle Bilder in einer Galerie angezeigt. Links werden ausserdem alle Modellnamen der nächsten Posts angezeigt, und rechts sieht man die Likes und Kommentare.
 ### Posts sortieren
 Man kann Posts suchen und nach bestimmten Kriterien filtern. Die Posts können nach Marken- und Modellnamen gefiltert werden, sodass nur die gesuchten Posts angezeigt werden.
 ### Account funktionen
